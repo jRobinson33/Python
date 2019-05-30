@@ -1,0 +1,18 @@
+In some cases I've simply selected an option for examples
+
+dir() 			: gives a list of directories
+dir(__builtins__) 	: gives you the directory for builtins
+
+help(pow) 		: gives help about the power function
+
+to get available modules that you have to import
+help('modules')
+
+you can then for example use
+import math
+
+after using "import math" in the interactive shell we can
+dir(math)
+
+we can then get help for say, radians. But we have to use the path
+help(math.radians)
