@@ -41,7 +41,8 @@ except KeyError:
 loc = post2.get('location', None)
 print("Using get on post2 to try and get the location: ", loc)
 
-
+#a couple examples of using for loops to go throughand print
+#all of the key value paires from our post dictionary
 print("printing key value paires")
 for key in post.keys():
     value = post[key]
@@ -49,3 +50,4 @@ for key in post.keys():
 
 for key, value in post.items():
     print(key, "=", value)
+
